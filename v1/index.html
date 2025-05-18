@@ -13,14 +13,15 @@
   <meta property="og:image" content="https://solearcerodriguez.com.ar/img/foto-perfil.jpg">
   <meta property="og:url" content="https://solearcerodriguez.com.ar">
   <meta property="og:type" content="website">
+  <meta name="robots" content="index, follow">
   <title>Sole Arce Rodríguez | Comunicadora y Life Coach</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="css/styles.css" media="all" />
-  <link rel="icon" type="image/jpg" href="img/foto-perfil.jpg" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
 <header>
-  <a href="/v1/" target="_self">
+  <a href="/" target="_self">
     <img class="avatar" src="img/foto-perfil.jpg" alt="Foto de perfil de Sole Arce Rodríguez" />
   </a>
   <nav aria-label="Navegación principal">
@@ -29,13 +30,13 @@
     <a href="#contacto">Contacto</a>
   </nav>
   <div class="redes">
-    <a href="https://www.instagram.com/sole_arcerodriguez" target="_blank" aria-label="Instagram de Sole Arce Rodríguez">
+    <a href="https://www.instagram.com/sole_arcerodriguez" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Sole Arce Rodríguez">
       <i class="fab fa-instagram"></i>
     </a>
-    <a href="https://www.linkedin.com/in/arceadriana/" target="_blank" aria-label="LinkedIn de Sole Arce Rodríguez">
+    <a href="https://www.linkedin.com/in/arceadriana/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Sole Arce Rodríguez">
       <i class="fab fa-linkedin"></i>
     </a>
-    <a href="mailto:arce.adrianasoledad@gmail.com" target="_blank" aria-label="Enviar email a Sole Arce Rodríguez">
+    <a href="mailto:arce.adrianasoledad@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Enviar email a Sole Arce Rodríguez">
       <i class="fas fa-envelope"></i>
     </a>
   </div>
@@ -54,15 +55,15 @@
     <h3>Proyectos</h3>
     <p>Estos son todos los proyectos en los que estoy trabajando actualmente. Haciendo click en cada proyecto serás redirigido al contenido.</p>
     <div class="proyectos">
-            <a class="proyecto" href="https://www.substack.com/@solearcerodriguez" target="_blank">
+            <a class="proyecto" href="https://www.substack.com/@solearcerodriguez" target="_blank" rel="noopener noreferrer">
               <h3>Blog y Newsletter</h3>
               <p>Artículos creados para la reflexión, el autoconocimiento, la mejora de habilidades individuales y el desarrollo de tu propósito.</p>
             </a>
-            <a class="proyecto" href="#" target="_blank">
+            <a class="proyecto" href="#">
               <h3>Coaching y Mentorías</h3>
               <p>Sesiones individuales o talleres grupales enfocados en el desarrollo personal y la mejora de habilidades en liderazgo y comunicación efectiva.</p>
             </a>
-            <a class="proyecto" href="https://www.youtube.com/@sole_arcerodriguez" target="_blank">
+            <a class="proyecto" href="https://www.youtube.com/@sole_arcerodriguez" target="_blank" rel="noopener noreferrer">
               <h3>Canal de YouTube</h3>
               <p>Videos sobre <i>lifestyle</i>, vida en la Patagonia, turismo sustentable y otros temas de interés personal. Sí, ¡me interesan muchos temas!</p>
             </a>
@@ -72,13 +73,13 @@
     <h3>Contacto</h3>
     <p>Podés encontrarme en mis redes sociales:</p>
     <div class="contacto">
-      <a href="https://www.instagram.com/solearcerodriguez" target="_blank" aria-label="Instagram de Sole Arce Rodríguez">
+      <a href="https://www.instagram.com/solearcerodriguez" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Sole Arce Rodríguez">
         <i class="fab fa-instagram"></i>
       </a>
-      <a href="https://www.linkedin.com/in/solearcerodriguez" target="_blank" aria-label="LinkedIn de Sole Arce Rodríguez">
+      <a href="https://www.linkedin.com/in/arceadriana/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Sole Arce Rodríguez">
         <i class="fab fa-linkedin"></i>
       </a>
-      <a href="mailto:sole.arce.rodriguez@gmail.com" target="_blank" aria-label="Enviar email a Sole Arce Rodríguez">
+      <a href="mailto:sole.arce.rodriguez@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Enviar email a Sole Arce Rodríguez">
         <i class="fas fa-envelope"></i>
       </a>
     </div>
@@ -87,19 +88,8 @@
     <i class="fas fa-arrow-up"></i>
   </button>
   <footer>
-    <p>&copy; 2025 Sole Arce Rodriguez. Todos los derechos reservados | Diseñado por <a href="#">.mediavint</a></p>
+    <p>&copy; 2025 Sole Arce Rodriguez. Todos los derechos reservados | Diseñado por <a href="#" target="_blank" rel="noopener noreferrer">.mediavint</a></p>
   </footer>
-  <script>
-  const scrollToTopBtn = document.getElementById("scrollToTop");
-
-  window.addEventListener("scroll", () => {
-    scrollToTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
-  });
-
-  scrollToTopBtn.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-</script>
-
+  <script src="js/script.js" defer></script>
 </body>
 </html>
