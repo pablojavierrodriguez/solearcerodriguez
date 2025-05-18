@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO básico -->
+  <meta name="description" content="Sitio oficial de Sole Arce Rodríguez. Comunicadora, Coach Ontológico y creadora de contenido. Descubrí sus proyectos, reflexiones y acompañamientos para el desarrollo personal.">
+  <meta name="keywords" content="Sole Arce Rodríguez, Comunicación, Coaching Ontológico, Liderazgo, Desarrollo personal, Patagonia, Blog, Mentoría">
+  <meta name="author" content="Sole Arce Rodríguez">
+  <!-- Open Graph (para compartir en redes sociales como Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:title" content="Sole Arce Rodríguez | Comunicadora y Life Coach">
+  <meta property="og:description" content="Conocé mis proyectos: blog, mentorías, coaching y más. Inspiración y liderazgo con propósito.">
+  <meta property="og:image" content="https://solearcerodriguez.com.ar/img/foto-perfil.jpg">
+  <meta property="og:url" content="https://solearcerodriguez.com.ar">
+  <meta property="og:type" content="website">
+  <title>Sole Arce Rodríguez | Comunicadora y Life Coach</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css" media="all" />
+  <link rel="icon" type="image/jpg" href="img/foto-perfil.jpg" />
+</head>
+<body>
+<header>
+  <a href="/v1/" target="_self">
+    <img class="avatar" src="img/foto-perfil.jpg" alt="Foto de perfil de Sole Arce Rodríguez" />
+  </a>
+  <nav aria-label="Navegación principal">
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <div class="redes">
+    <a href="https://www.instagram.com/sole_arcerodriguez" target="_blank" aria-label="Instagram de Sole Arce Rodríguez">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/arceadriana/" target="_blank" aria-label="LinkedIn de Sole Arce Rodríguez">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="mailto:arce.adrianasoledad@gmail.com" target="_blank" aria-label="Enviar email a Sole Arce Rodríguez">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+</header>
+
+  <section class="hero">
+    <h1>Sole Arce Rodriguez</h1>
+    <p>Comunicadora - Coach Ontológico - Creadora de contenido</p>
+  </section>
+  <section class="section" id="sobre-mi">
+    <h3>Sobre mí</h3>
+    <p>¡Hola! Soy Sole, Soy Comunicadora Social y Coach Ontológico*. Me encanta TODO lo que tiene que ver con la comunicación y pongo MUCHO foco en ayudar a otros a desarrollar un LIDERAZGO CON PROPÓSITO. Mi misión es utilizar todos mis conocimientos y herramientas para facilitar procesos de transformación personal y colectiva a través de conversaciones con sentido.
+¿Querés saber más? Hablemos.</p>
+  </section>
+  <section class="section" id="proyectos">
+    <h3>Proyectos</h3>
+    <p>Estos son todos los proyectos en los que estoy trabajando actualmente. Haciendo click en cada proyecto serás redirigido al contenido.</p>
+    <div class="proyectos">
+            <a class="proyecto" href="https://www.substack.com/@solearcerodriguez" target="_blank">
+              <h3>Blog y Newsletter</h3>
+              <p>Artículos creados para la reflexión, el autoconocimiento, la mejora de habilidades individuales y el desarrollo de tu propósito.</p>
+            </a>
+            <a class="proyecto" href="#" target="_blank">
+              <h3>Coaching y Mentorías</h3>
+              <p>Sesiones individuales o talleres grupales enfocados en el desarrollo personal y la mejora de habilidades en liderazgo y comunicación efectiva.</p>
+            </a>
+            <a class="proyecto" href="https://www.youtube.com/@sole_arcerodriguez" target="_blank">
+              <h3>Canal de YouTube</h3>
+              <p>Videos sobre <i>lifestyle</i>, vida en la Patagonia, turismo sustentable y otros temas de interés personal. Sí, ¡me interesan muchos temas!</p>
+            </a>
+          </div>
+  </section>
+  <section class="section" id="contacto">
+    <h3>Contacto</h3>
+    <p>Podés encontrarme en mis redes sociales:</p>
+    <div class="contacto">
+      <a href="https://www.instagram.com/solearcerodriguez" target="_blank" aria-label="Instagram de Sole Arce Rodríguez">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/solearcerodriguez" target="_blank" aria-label="LinkedIn de Sole Arce Rodríguez">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:sole.arce.rodriguez@gmail.com" target="_blank" aria-label="Enviar email a Sole Arce Rodríguez">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </section>
+  <button id="scrollToTop" aria-label="Volver al inicio">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <footer>
+    <p>&copy; 2025 Sole Arce Rodriguez. Todos los derechos reservados | Diseñado por <a href="#">.mediavint</a></p>
+  </footer>
+  <script>
+  const scrollToTopBtn = document.getElementById("scrollToTop");
+
+  window.addEventListener("scroll", () => {
+    scrollToTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+  });
+
+  scrollToTopBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
+
+</body>
+</html>
